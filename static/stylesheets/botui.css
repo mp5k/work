@@ -1,0 +1,91 @@
+.botui-app-container {
+	margin: auto auto;
+	width: 80%;
+	max-width: 800px;
+	min-width: 400px;
+	max-height: 800px;
+	min-height: 600px;
+}
+
+.botui-container {
+
+}
+
+.botui-messages-container {
+}
+
+.botui-actions-container {
+}
+
+.botui-message {
+
+}
+
+.botui-message-content {
+	border:3px solid #00a42c;
+	color:#595a5a;
+	background-color:#ebebeb; 
+}
+
+.botui-message:last-child .botui-message-content:not(.human) {
+	padding-left: 50px;
+	display:inline-block;
+	background: url("/static/images/piyopiyo.gif");
+	background-size: 50px;
+	vertical-align:middle;
+	background-repeat: no-repeat;
+}
+
+.botui-message-content.human {
+	color:#000;
+	background-color:#ebebeb;
+	border:3px solid #f37e04;
+}
+
+.botui-message-content-link {
+}
+
+.botui-actions-container {
+	text-align: right;
+}
+
+.botui-actions-text-input {
+	width: 100%;
+}
+
+.botui-actions-text-submit {
+
+}
+
+.botui-actions-buttons-button {
+
+}
+
+div.intent {
+	padding: 3px;
+	font-size: 0.8em;
+	border-radius: .5rem;
+	background: #00a42c;
+	color: #ffffff;
+}
+
+ul.candidacy {
+	font-size: 0.8em;
+	border: 1px dashed;
+	border-radius: 15px;
+	padding-left: 30px;
+}
+
+ul.candidacy:before {
+	content: "関連する質問";
+	font-weight: bold;  
+}
+
+ul.candidacy li {
+	cursor: pointer;
+}
+
+ul.candidacy li:hover {
+	color:#fff;
+	background-color: #00a42c;
+}

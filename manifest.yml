@@ -1,0 +1,8 @@
+---
+applications:
+ - name: flaskapp-works
+   command: python app.py
+   path: .
+   random-route: true
+   memory: 128M
+   buildpack: python_buildpack
