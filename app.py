@@ -26,7 +26,7 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login' #login_viewのroute
 users_repository = UsersRepository()
-users_repository.save_user(User(username='gss', password='0128', id=1))
+users_repository.save_user(User(username='scs', password='00aa@@', id=1))
 
 @login_manager.user_loader
 def load_user(user_id):
